@@ -38,8 +38,8 @@ h1 {
 }
 
 .team-card img {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 100px;
     border-radius: 8px;
 }
 
