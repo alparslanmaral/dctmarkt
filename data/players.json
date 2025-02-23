@@ -1,7 +1,7 @@
 [
     {
         "player_code": "P001",
-        "team_code": "Fener",
+        "team_code": "Fenerbahçe",
         "name": "Cenk Tosun",
         "birth_date": "7 Haziran 1991",
         "height": 183,
@@ -18,7 +18,7 @@
     },
     {
         "player_code": "P002",
-        "team_code": "FB",
+        "team_code": "Fenerbahçe",
         "name": "Edin Dzeko",
         "birth_date": "17 Mart 1986",
         "height": 193,
@@ -35,25 +35,8 @@
     },
     {
         "player_code": "P003",
-        "team_code": "GS",
+        "team_code": "Galatasaray",
         "name": "Victor Osimhen",
-        "birth_date": "29 Aralık 1998",
-        "height": 186,
-        "national_team": "Nijerya",
-        "position": "Forvet",
-        "market_value": 45,
-        "pace": 88,
-        "shooting": 86,
-        "passing": 62,
-        "dribbling": 79,
-        "defense": 32,
-        "physical": 79,
-        "rating": 84
-    },
-    {
-        "player_code": "P004",
-        "team_code": "RZE",
-        "name": "TEST",
         "birth_date": "29 Aralık 1998",
         "height": 186,
         "national_team": "Nijerya",
