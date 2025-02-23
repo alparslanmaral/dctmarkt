@@ -1,0 +1,53 @@
+[
+    {
+        "player_code": "P001",
+        "team_code": "FB",
+        "name": "Cenk Tosun",
+        "birth_date": "7 Haziran 1991",
+        "height": 183,
+        "national_team": "Türkiye",
+        "position": "Forvet",
+        "market_value": 2.4,
+        "pace": 61,
+        "shooting": 79,
+        "passing": 69,
+        "dribbling": 70,
+        "defense": 35,
+        "physical": 78,
+        "rating": 74
+    },
+    {
+        "player_code": "P002",
+        "team_code": "FB",
+        "name": "Edin Dzeko",
+        "birth_date": "17 Mart 1986",
+        "height": 193,
+        "national_team": "Bosna-Hersek",
+        "position": "Forvet",
+        "market_value": 10.5,
+        "pace": 56,
+        "shooting": 85,
+        "passing": 79,
+        "dribbling": 77,
+        "defense": 52,
+        "physical": 80,
+        "rating": 85
+    },
+    {
+        "player_code": "P003",
+        "team_code": "GS",
+        "name": "Victor Osimhen",
+        "birth_date": "29 Aralık 1998",
+        "height": 186,
+        "national_team": "Nijerya",
+        "position": "Forvet",
+        "market_value": 45,
+        "pace": 88,
+        "shooting": 86,
+        "passing": 62,
+        "dribbling": 79,
+        "defense": 32,
+        "physical": 79,
+        "rating": 84
+    }
+]

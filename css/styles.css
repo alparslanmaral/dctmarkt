@@ -1,0 +1,151 @@
+/* Genel Stil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Axiforma', sans-serif;
+    background-color: #1C1C2C;
+    color: white;
+    text-align: center;
+}
+
+/* Başlık ve header */
+header {
+    background-color: #F43C04;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Ana sayfa takımlar grid */
+#teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.team-card {
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Takım oyuncu kartları */
+.player-card {
+    background-color: #0C0C24;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.player-card img {
+    width: 150px;
+    height: 195px;
+    border-radius: 8px;
+}
+
+.player-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.player-card p {
+    font-size: 1em;
+}
+
+/* ---- PLAYER DETAY SAYFASI ---- */
+#player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+#player-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0C24;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+#player-image img {
+    width: 180px;
+    height: 250px;
+    border-radius: 8px;
+    border: 3px solid #F43C04;
+}
+
+#player-info {
+    padding: 20px;
+    background-color: #1C1C2C;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    font-size: 1.2em;
+    width: 350px;
+}
+
+#player-rating {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #F43C04;
+}
+
+#player-rating h1 {
+    font-size: 3em;
+    color: white;
+}
+
+#player-rating p {
+    font-size: 1em;
+    color: white;
+}
+
+.tm-frame {
+    width: 100%;
+    height: 500px;  /* Adjust height as necessary */
+    border: none;
+}
+
+/* Hide unnecessary elements inside the iframe */
+.tm-frame {
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin-top: 20px;
+}
+
